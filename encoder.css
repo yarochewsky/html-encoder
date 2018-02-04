@@ -1,0 +1,45 @@
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+main#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, footer {
+  text-align: center;
+}
+
+textarea, textarea#result, button#encode, button#copy  {
+  width: 90%;
+}
+
+textarea {
+  height: 300px;
+}
+
+textarea#result {
+  border: 2px solid #369000;
+  font-family: monospace;
+  margin-bottom: 50px;
+}
+
+textarea#result, footer {
+  margin-top: 50px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+button#encode, button#copy {
+  height: 50px;
+  font-size: 20pt;
+  font-family: inherit;
+}
+
+.hidden {
+  display: none;
+}
